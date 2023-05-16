@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #1e1e1e;
+}
+
+small {
+  line-height: 160%;
+  color: #bebebf;
+  font-size: 12px;
+}
+
+h1 {
+  color: #eaeaea;
+  line-height: 125%;
+}
+
+p {
+  font-size: 18px;
+  color: #bebebf;
+  line-height: 28.8px;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 64px 64px 0px 64px;
+}
