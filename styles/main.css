@@ -66,11 +66,20 @@ aside {
   border-right: 1px solid;
   border-image: linear-gradient(#727275, #2c2c31) 1;
 
-  background-image: url("./assets/background.svg");
+  background-image: url("/assets/background.svg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
 }
 
-#profile-img {
+aside img:nth-child(2) {
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
+
+  border: 4px solid transparent;
+  background: linear-gradient(#d39e33, #ed5636, #633bbc) padding-box,
+    linear-gradient(260deg, #d39e33, #ed5636, #633bbc) border-box;
 }
 
 aside p {
