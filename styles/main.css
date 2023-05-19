@@ -19,6 +19,9 @@ body {
 nav {
   padding: 64px;
   grid-area: timeline;
+
+  /* PERMITE MOVER APENAS UMA PARTE DO GRID */
+  overflow-y: scroll;
 }
 
 .posts {
@@ -60,7 +63,6 @@ aside {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
   gap: 20px;
 
   border-right: 1px solid;
@@ -85,9 +87,10 @@ aside img:nth-child(2) {
 aside p {
   font-size: 32px;
   color: #eaeaea;
+  text-align: center;
 }
 
 aside span {
-  font-size: 14px;
-  color: #bebebf;
+  font-size: 12px;
+  color: #9e9ea0;
 }
